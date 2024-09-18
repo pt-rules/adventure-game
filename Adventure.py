@@ -183,7 +183,9 @@ def start_adventure():
                 if direction == "f":
                     print("You enter the forest")
                     beast = True
-                    print("As you are walking along a path through the forest you hear a growling noise up a head. Do you continue along the path or risk heading into the woods.\n(p)Path\n(w)Woods)")
+                    growl = input(print("As you are walking along a path through the forest you hear a growling noise up a head. Do you continue along the path or risk heading into the woods.\n(p)Path\n(w)Woods)"))
+                    if  growl == "p":
+                        print("You are walking along the path and come across a bear. He charges at you and you are forced to fight")
                 elif direction == "p":
                     print("You enter the plains")
                     beast = True
